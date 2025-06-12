@@ -135,14 +135,16 @@ body {
 }
 
 .sectone{
-  width:1000px;
+  width:100%;
+  max-width: 1000px;
   justify-items: center;
   margin-left: 250px;
 }
 
 .contra{
-  width: 300px;
+  width: 100%;
   height: 300px;
+  max-width: 300px;
   background-color: #333;
   color: white;
   padding: 20px;
@@ -150,15 +152,18 @@ body {
 }
 
 .maintain{
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .maintain p{
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .maintain-one{
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .maintain-one ul{
@@ -253,7 +258,8 @@ background-repeat: no-repeat;
 }
 
 .hardpage{
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   padding: 10px;
 }
 
@@ -707,7 +713,8 @@ input#request-quote:checked ~ .message-section {
 
    
     .slide{
-      width:200px;
+      width: 100%;
+      min-width: 400px;
       height: 500px;
     }
    
@@ -715,8 +722,8 @@ input#request-quote:checked ~ .message-section {
     .slide-text {
       padding: 0px;
       margin-top: -15px;
-      min-width: 250px;
-      height:25px;
+      min-width: 400px;
+      height: 60px;
       font-size: 13.65px;
    
     }
@@ -725,7 +732,7 @@ input#request-quote:checked ~ .message-section {
      position: relative;
      bottom: -200px;
      right: 400px;
-     min-width: 450px;
+     min-width: 530px;
      height:100%;
     }
 
@@ -744,22 +751,32 @@ input#request-quote:checked ~ .message-section {
       text-align: center;
     }
 
+    .maintain-one{
+      width: 100%;
+      max-width: 450px;
+      margin-left: 0px;
+    }
+
     .maintain p{
-      width:400px;
+      width:100%;
+      min-width: 400px;
     }
 
     .maintain-one ul{
       margin-left: 0px;
-      width: 400px;
+      width: 100%;
+      min-width: 250px;
     }
 
     .hardpage{
-      width:300px;
+      width: 100%;
+      min-width: 400px;
     }
 
     .contact-card{
       height: 300px;
-      weight:300px;
+      width:100%;
+      min-width: 100px;
     }
     
     .focon{

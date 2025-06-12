@@ -734,12 +734,12 @@ input#request-quote:checked ~ .message-section {
     }
 
     .maintain p{
-      width:300px;
+      width:400px;
     }
 
     .maintain-one ul{
       margin-left: 0px;
-      width: 250px;
+      width: 400px;
     }
 
     .hardpage{

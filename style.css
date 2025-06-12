@@ -1,0 +1,770 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-list li {
+  position: relative;
+}
+
+.nav-list  li  a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list > li > a:hover {
+  background-color: none;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 180px;
+  z-index: 1;
+  list-style: none;
+  
+}
+
+.dropdown-menu li a {
+  color: #333;
+  padding: 15px;
+  display: list-item;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.imot{
+  margin-left: 1500px;
+}
+
+
+.logo-image {
+  width: 100px;
+  height: 30px;
+  margin-right: 65rem;
+}
+
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    max-width: 100%;
+    max-height: 450px;  
+}
+
+.career-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 45%;
+    color: white;
+    font-size: 25px;
+    background-color: #333;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 45%;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sect-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-self: center;
+    text-align: left;
+    width: 850px;
+}
+
+.sectone{
+  width:1000px;
+  justify-items: center;
+  margin-left: 250px;
+}
+
+.contra{
+  width: 300px;
+  height: 300px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.maintain{
+  width: 1500px;
+}
+
+.maintain p{
+  width: 1500px;
+}
+
+.maintain-one{
+  width: 1000px;
+}
+
+.maintain-one ul{
+  margin-left:360px;
+}
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+ position: relative;
+height: 450px;
+width: 350px;
+background-position: center;
+color: white;
+background-repeat: no-repeat;     
+      
+}
+
+.card-one {
+  position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 6px;
+}
+
+.card-content {
+  padding: 16px;
+  width:250px;
+  height: 200px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-two{
+  padding: 20px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gall-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gall-container img{
+  width: 300px;
+  height:250px;
+}
+
+.carein{
+  font-size: 20px;
+}
+
+.carein-one{
+  width: 850px;
+  margin-left: 335px;
+  text-align: center;
+}
+
+.hardpage{
+  width: 800px;
+  padding: 10px;
+}
+
+.hard-image{
+  width:500px;
+  height:300px;
+}
+
+.team-image{
+  width: 250px;
+  height: 200px;
+  padding-right:60px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.teamcard{
+  width: 300px;
+  height: 450px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teamcard-one{
+  padding: 75px;
+}
+
+
+
+
+
+.section1{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.slideshow-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.slide-text{
+  padding: 100px;
+}
+
+.slide img {
+  width: 50%;
+  height: auto;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+
+.contact-container {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 40px ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-card{
+  background-color: white;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.imo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.imo-container img {
+  width: 500px;
+  height: 350px;
+}
+
+.imotext{
+  width:35%;
+  text-align:left;
+}
+
+
+
+footer {
+    background-color: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.foot-contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+}
+
+.focon{
+  width: 350px;
+}
+
+:root {
+    --primary-color: #2E7D32; /* A nice, earthy green */
+    --primary-color-dark: #1B5E20;
+    --secondary-color: #f9f9f9;
+    --border-color: #ddd;
+    --text-color: #333;
+    --label-color: #555;
+    --bg-color: #ffffff;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* --- Form Container & Header --- */
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--bg-color);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-header h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.form-header p {
+    color: var(--label-color);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* --- Fieldsets and Legends --- */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+legend {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color-dark);
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* --- Form Grid Layout --- */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+/* --- Labels and Inputs --- */
+label {
+    margin-bottom: 0.5rem;
+    color: var(--label-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* --- Radio Button & Checkbox Styling --- */
+.inquiry-type {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.inquiry-type input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+.radio-label {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.inquiry-type input[type="radio"]:checked + .radio-label {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color-dark);
+    color: white;
+    font-weight: 600;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.75rem;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+.checkbox-group label:hover {
+    background-color: #f0f4f0;
+}
+.checkbox-group input[type="checkbox"] {
+    width: 1.2em;
+    height: 1.2em;
+    accent-color: var(--primary-color);
+}
+
+/* --- Conditional Form Logic (CSS Only) --- */
+.quote-section {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out, margin-top 0.7s ease-in-out;
+}
+
+/* When the "request-quote" radio is checked, expand the sibling .quote-section */
+input#request-quote:checked ~ .quote-section {
+    max-height: 1000px; /* Adjust if your form is taller */
+    margin-top: 2rem;
+}
+
+.message-section {
+    max-height: 300px;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+input#request-quote:checked ~ .message-section {
+    max-height: 0;
+    opacity: 0;
+    margin-top: -1.5rem; /* pull up the space */
+    pointer-events: none;
+}
+
+
+/* --- Submit Button & Privacy Notice --- */
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-color-dark);
+    transform: translateY(-2px);
+}
+
+.privacy-notice {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--label-color);
+    margin-top: 1.5rem;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+
+  .nav-list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.logo-image {
+  margin-right: 0rem;
+}
+
+    .hero {
+        height: auto;
+        padding: 1rem;
+    }
+    .hero-image {
+        height: 300px;
+    }
+    .hero-overlay {
+        font-size: 30px;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+    }
+    .sect-overlay {
+        font-size: 16px;
+        top: 15%;
+        left: 5%;
+        width: 90%;
+    }
+    .sectone{
+      width:100%;
+      margin-left:0px;
+  }
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    .form-container {
+        padding: 1.5rem;
+    }
+    .inquiry-type {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .hero img{
+      width:100%;
+      height: 450px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      justify-self: normal;
+      text-align: center;
+    }
+
+   
+    .slide{
+      width:200px;
+      height: 500px;
+    }
+   
+
+    .slide-text {
+      padding: 0px;
+      margin-top: -15px;
+      min-width: 250px;
+      height:25px;
+      font-size: 13.65px;
+   
+    }
+
+    .slide img{
+     position: relative;
+     bottom: -200px;
+     right: 400px;
+     min-width: 450px;
+     height:100%;
+    }
+
+    .foot-contain{
+      flex-direction: column;
+      align-items: center;
+    } 
+
+    .imo-container{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .imotext{
+      width: 100%;
+      text-align: center;
+    }
+
+    .maintain p{
+      width:300px;
+    }
+
+    .maintain-one ul{
+      margin-left: 0px;
+      width: 250px;
+    }
+
+    .hardpage{
+      width:300px;
+    }
+
+    .contact-card{
+      height: 300px;
+      weight:300px;
+    }
+    
+    .focon{
+      width: 100%;
+      text-align: center;
+    }
+
+    .teamcard-one{
+      padding: 0px;
+    }
+
+    .carein-one{
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    
+  }
